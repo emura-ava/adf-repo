@@ -1,5 +1,13 @@
 {
 	"name": "enaka-adf",
+	"properties": {
+		"globalParameters": {
+			"testGlobal1": {
+				"type": "string",
+				"value": "testGlobal1"
+			}
+		}
+	},
 	"location": "japaneast",
 	"identity": {
 		"type": "SystemAssigned",
