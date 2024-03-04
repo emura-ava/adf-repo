@@ -4,15 +4,15 @@
 		"globalParameters": {
 			"testGlobal1": {
 				"type": "string",
-				"value": "testtest1"
+				"value": "thisisBaseline1"
 			},
 			"testGlobal2": {
 				"type": "string",
-				"value": "testtest2"
+				"value": "thisisBaseline2"
 			},
 			"testGlobal3": {
 				"type": "string",
-				"value": "testtest3"
+				"value": "thisisBaseline3"
 			}
 		}
 	},
