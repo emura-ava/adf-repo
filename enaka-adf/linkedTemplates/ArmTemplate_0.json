@@ -7,15 +7,15 @@
 			"metadata": "データ ファクトリ名",
 			"defaultValue": "enaka-adf"
 		},
-		"default_properties_testGlobal1_testParam1": {
+		"default_properties_testGlobal1": {
 			"type": "string"
 		},
 		"default_properties_testGlobal2_value": {
 			"type": "string",
 			"defaultValue": "replaceglobal2"
 		},
-		"default_properties_testGlobal3_1": {
-			"type": "int"
+		"default_properties_testGlobal3": {
+			"type": "string"
 		}
 	},
 	"variables": {
@@ -29,7 +29,7 @@
 			"properties": {
 				"testGlobal1": {
 					"type": "string",
-					"value": "[parameters('default_properties_testGlobal1_testParam1')]"
+					"value": "[parameters('default_properties_testGlobal1')]"
 				},
 				"testGlobal2": {
 					"type": "string",
@@ -37,7 +37,7 @@
 				},
 				"testGlobal3": {
 					"type": "string",
-					"value": "[parameters('default_properties_testGlobal3_1')]"
+					"value": "[parameters('default_properties_testGlobal3')]"
 				}
 			},
 			"dependsOn": []
