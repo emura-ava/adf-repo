@@ -161,10 +161,7 @@
     "Microsoft.DataFactory/factories/globalparameters": {
         "properties": {
             "*": {
-                "value": "="
-            },
-            "MyNewParameter": {
-                "value": "MyValue"
+                "value": "-"
             }
         }
     }
