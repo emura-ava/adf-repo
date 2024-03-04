@@ -6,6 +6,14 @@
 			"type": "string",
 			"metadata": "データ ファクトリ名",
 			"defaultValue": "enaka-adf"
+		},
+		"default_properties_testGlobal1_value": {
+			"type": "string",
+			"defaultValue": "replacedParam"
+		},
+		"default_properties_testGlobal2_value": {
+			"type": "string",
+			"defaultValue": "test"
 		}
 	},
 	"variables": {
@@ -100,6 +108,22 @@
 				},
 				"annotations": [],
 				"lastPublishTime": "2024-03-04T08:50:19Z"
+			},
+			"dependsOn": []
+		},
+		{
+			"name": "[concat(parameters('factoryName'), '/default')]",
+			"type": "Microsoft.DataFactory/factories/globalparameters",
+			"apiVersion": "2018-06-01",
+			"properties": {
+				"testGlobal1": {
+					"type": "string",
+					"value": "[parameters('default_properties_testGlobal1_value')]"
+				},
+				"testGlobal2": {
+					"type": "string",
+					"value": "[parameters('default_properties_testGlobal2_value')]"
+				}
 			},
 			"dependsOn": []
 		}
