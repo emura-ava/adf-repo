@@ -1,0 +1,44 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Execute Pipeline1",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pipeline2",
+						"type": "PipelineReference"
+					},
+					"waitOnCompletion": true,
+					"parameters": {
+						"testParameter2": {
+							"value": "@variables('testVariable1')",
+							"type": "Expression"
+						}
+					}
+				}
+			}
+		],
+		"parameters": {
+			"testParameter1": {
+				"type": "string",
+				"defaultValue": "testParameter1"
+			}
+		},
+		"variables": {
+			"testVariable1": {
+				"type": "String",
+				"defaultValue": "testVariable1"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2024-03-04T09:01:48Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

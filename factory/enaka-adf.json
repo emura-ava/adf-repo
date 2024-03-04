@@ -1,0 +1,25 @@
+{
+	"name": "enaka-adf",
+	"properties": {
+		"globalParameters": {
+			"testGlobal1": {
+				"type": "string",
+				"value": "replaceglobal1"
+			},
+			"testGlobal2": {
+				"type": "string",
+				"value": "replaceglobal2"
+			},
+			"testGlobal3": {
+				"type": "string",
+				"value": "replaceglobal3"
+			}
+		}
+	},
+	"location": "japaneast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "84d18e78-5c1d-4244-84de-4e13a99029c6",
+		"tenantId": "cf36141c-ddd7-45a7-b073-111f66d0b30c"
+	}
+}
