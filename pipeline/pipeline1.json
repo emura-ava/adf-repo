@@ -28,17 +28,17 @@
 		"parameters": {
 			"testParameter1": {
 				"type": "string",
-				"defaultValue": "testParameter1"
+				"defaultValue": "thisisBaselineParameter1"
 			}
 		},
 		"variables": {
 			"testVariable1": {
 				"type": "String",
-				"defaultValue": "testVariable1"
+				"defaultValue": "thisisBaselineVariable1"
 			}
 		},
 		"annotations": [],
-		"lastPublishTime": "2024-03-04T09:01:48Z"
+		"lastPublishTime": "2024-03-04T08:50:20Z"
 	},
 	"type": "Microsoft.DataFactory/factories/pipelines"
 }
