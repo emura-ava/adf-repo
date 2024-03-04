@@ -161,7 +161,7 @@
     "Microsoft.DataFactory/factories/globalparameters": {
         "properties": {
             "*": {
-                "value": "-"
+                "value": "="
             }
         }
     }
