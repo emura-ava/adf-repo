@@ -9,11 +9,11 @@
 		},
 		"default_properties_testGlobal1_value": {
 			"type": "string",
-			"defaultValue": "replacedParam"
+			"defaultValue": "test1"
 		},
 		"default_properties_testGlobal2_value": {
 			"type": "string",
-			"defaultValue": "test"
+			"defaultValue": "test2"
 		}
 	},
 	"variables": {
