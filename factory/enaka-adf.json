@@ -4,7 +4,11 @@
 		"globalParameters": {
 			"testGlobal1": {
 				"type": "string",
-				"value": "testGlobal1"
+				"value": "replacedParam"
+			},
+			"testGlobal2": {
+				"type": "string",
+				"value": "test"
 			}
 		}
 	},

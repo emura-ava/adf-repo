@@ -28,6 +28,8 @@
 				"defaultValue": "testVariable2"
 			}
 		},
-		"annotations": []
-	}
+		"annotations": [],
+		"lastPublishTime": "2024-03-04T08:50:19Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
 }
