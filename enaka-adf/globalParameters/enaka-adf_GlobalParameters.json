@@ -1,14 +1,14 @@
 {
 	"testGlobal1": {
 		"type": "string",
-		"value": "replaceglobal1"
+		"value": "test1"
 	},
 	"testGlobal2": {
 		"type": "string",
-		"value": "replaceglobal2"
+		"value": "test2"
 	},
 	"testGlobal3": {
 		"type": "string",
-		"value": "replaceglobal3"
+		"value": "test3"
 	}
 }
