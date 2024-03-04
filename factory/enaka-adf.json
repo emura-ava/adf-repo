@@ -9,6 +9,10 @@
 			"testGlobal2": {
 				"type": "string",
 				"value": "testtest2"
+			},
+			"testGlobal3": {
+				"type": "string",
+				"value": "testtest3"
 			}
 		}
 	},
