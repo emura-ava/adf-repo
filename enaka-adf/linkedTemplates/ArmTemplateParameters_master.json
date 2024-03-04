@@ -6,13 +6,13 @@
 			"value": "enaka-adf"
 		},
 		"default_properties_testGlobal1_value": {
-			"value": "replaceglobal1"
+			"value": ""
 		},
 		"default_properties_testGlobal2_value": {
 			"value": "replaceglobal2"
 		},
 		"default_properties_testGlobal3_value": {
-			"value": "replaceglobal3"
+			"value": ""
 		},
 		"containerUri": {
 			"value": ""
