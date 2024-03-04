@@ -1,10 +1,14 @@
 {
 	"testGlobal1": {
 		"type": "string",
-		"value": "replacedParam"
+		"value": "replaceglobal1"
 	},
 	"testGlobal2": {
 		"type": "string",
-		"value": "test"
+		"value": "replaceglobal2"
+	},
+	"testGlobal3": {
+		"type": "string",
+		"value": "replaceglobal3"
 	}
 }

@@ -7,14 +7,6 @@
 			"metadata": "データ ファクトリ名",
 			"defaultValue": "enaka-adf"
 		},
-		"default_properties_testGlobal1_value": {
-			"type": "string",
-			"defaultValue": "replacedParam"
-		},
-		"default_properties_testGlobal2_value": {
-			"type": "string",
-			"defaultValue": "test"
-		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "リンクされた ARM テンプレートを含むストレージ アカウントの URI"
@@ -41,12 +33,6 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
-					},
-					"default_properties_testGlobal1_value": {
-						"value": "[parameters('default_properties_testGlobal1_value')]"
-					},
-					"default_properties_testGlobal2_value": {
-						"value": "[parameters('default_properties_testGlobal2_value')]"
 					}
 				}
 			},
