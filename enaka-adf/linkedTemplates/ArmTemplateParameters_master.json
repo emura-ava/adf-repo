@@ -5,8 +5,14 @@
 		"factoryName": {
 			"value": "enaka-adf"
 		},
+		"default_properties_testGlobal1_testParam1": {
+			"value": ""
+		},
 		"default_properties_testGlobal2_value": {
 			"value": "replaceglobal2"
+		},
+		"default_properties_testGlobal3_1": {
+			"value": ""
 		},
 		"containerUri": {
 			"value": ""
