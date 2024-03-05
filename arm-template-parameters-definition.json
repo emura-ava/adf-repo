@@ -23,7 +23,6 @@
         }
     },
     "Microsoft.DataFactory/factories/pipelines": {
-        "name": "pipeline1",
         "properties": {
             "variables": {
                 "*": "-"
