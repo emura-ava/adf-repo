@@ -160,14 +160,8 @@
     },
     "Microsoft.DataFactory/factories/globalparameters": {
         "properties": {
-            "testGlobal1": {
-                "value": "-::string"
-            },
-            "testGlobal2": {
+            "*": {
                 "value": "="
-            },
-            "testGlobal3": {
-                "value": "-::string"
             }
         }
     }
