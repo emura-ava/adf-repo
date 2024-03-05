@@ -7,11 +7,24 @@
 			"metadata": "データ ファクトリ名",
 			"defaultValue": "enaka-adf"
 		},
+		"pipeline1_properties_parameters_testParameter1": {
+			"type": "object",
+			"defaultValue": {
+				"type": "string",
+				"defaultValue": "testParameter1"
+			}
+		},
 		"pipeline1_properties_variables_testVariable1": {
 			"type": "object",
 			"defaultValue": {
 				"type": "String",
 				"defaultValue": "testVariable1"
+			}
+		},
+		"pipeline2_properties_parameters_testParameter2": {
+			"type": "object",
+			"defaultValue": {
+				"type": "string"
 			}
 		},
 		"pipeline2_properties_variables_testVariable2": {
@@ -67,8 +80,14 @@
 					"default_properties_testGlobal3": {
 						"value": "[parameters('default_properties_testGlobal3')]"
 					},
+					"pipeline2_properties_parameters_testParameter2": {
+						"value": "[parameters('pipeline2_properties_parameters_testParameter2')]"
+					},
 					"pipeline2_properties_variables_testVariable2": {
 						"value": "[parameters('pipeline2_properties_variables_testVariable2')]"
+					},
+					"pipeline1_properties_parameters_testParameter1": {
+						"value": "[parameters('pipeline1_properties_parameters_testParameter1')]"
 					},
 					"pipeline1_properties_variables_testVariable1": {
 						"value": "[parameters('pipeline1_properties_variables_testVariable1')]"

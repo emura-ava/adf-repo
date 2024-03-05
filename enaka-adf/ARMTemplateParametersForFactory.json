@@ -5,10 +5,21 @@
 		"factoryName": {
 			"value": "enaka-adf"
 		},
+		"pipeline1_properties_parameters_testParameter1": {
+			"value": {
+				"type": "string",
+				"defaultValue": "testParameter1"
+			}
+		},
 		"pipeline1_properties_variables_testVariable1": {
 			"value": {
 				"type": "String",
 				"defaultValue": "testVariable1"
+			}
+		},
+		"pipeline2_properties_parameters_testParameter2": {
+			"value": {
+				"type": "string"
 			}
 		},
 		"pipeline2_properties_variables_testVariable2": {
