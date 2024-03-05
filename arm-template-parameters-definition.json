@@ -30,24 +30,11 @@
             "variables": {
                 "*": "="
             },
-            "activities": [
-                {
-                    "name": "Execute Pipeline1",
-                    "type": "ExecutePipeline",
-                    "typeProperties": {
-                        "pipeline": {
-                            "referenceName": "pipeline2",
-                            "type": "PipelineReference"
-                        },
-                        "waitOnCompletion": true,
-                        "parameters": {
-                            "testParameter2": {
-                                "value": "@variables('testVariable1')"
-                            }
-                        }
-                    }
+            "activities": {
+                "parameters": {
+                    "*": "="
                 }
-            ]
+            }
         }
     },
     "Microsoft.DataFactory/factories/integrationRuntimes": {
