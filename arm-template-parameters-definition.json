@@ -25,8 +25,7 @@
     "Microsoft.DataFactory/factories/pipelines": {
         "properties": {
             "variables": {
-                "testVariable1": "-::string",
-                "testVariable2": "-::string"
+                "*": "="
             }
         }
     },
