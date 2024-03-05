@@ -25,21 +25,8 @@
     "Microsoft.DataFactory/factories/pipelines": {
         "name": "pipeline1",
         "properties": {
-            "activities": [
-                {
-                    "name": "activity1",
-                    "type": "=",
-                    "typeProperties": {
-                        "linkedServiceName": {
-                            "referenceName": "=",
-                            "type": "="
-                        },
-                        "type": "="
-                    }
-                }
-            ],
             "parameters": {
-                "*": "="
+                "*": "-"
             }
         }
     },
