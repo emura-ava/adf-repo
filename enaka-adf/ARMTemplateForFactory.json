@@ -7,6 +7,27 @@
 			"metadata": "データ ファクトリ名",
 			"defaultValue": "enaka-adf"
 		},
+		"pipeline1_properties_0_type": {
+			"type": "string",
+			"defaultValue": "ExecutePipeline"
+		},
+		"pipeline1_properties_parameters_testParameter1": {
+			"type": "object",
+			"defaultValue": {
+				"type": "string",
+				"defaultValue": "testParameter1"
+			}
+		},
+		"pipeline2_properties_0_type": {
+			"type": "string",
+			"defaultValue": "SetVariable"
+		},
+		"pipeline2_properties_parameters_testParameter2": {
+			"type": "object",
+			"defaultValue": {
+				"type": "string"
+			}
+		},
 		"default_properties_testGlobal1": {
 			"type": "string"
 		},
@@ -30,7 +51,7 @@
 				"activities": [
 					{
 						"name": "Execute Pipeline1",
-						"type": "ExecutePipeline",
+						"type": "[parameters('pipeline1_properties_0_type')]",
 						"dependsOn": [],
 						"policy": {
 							"secureInput": false
@@ -55,10 +76,7 @@
 					"elapsedTimeMetric": {}
 				},
 				"parameters": {
-					"testParameter1": {
-						"type": "string",
-						"defaultValue": "testParameter1"
-					}
+					"testParameter1": "[parameters('pipeline1_properties_parameters_testParameter1')]"
 				},
 				"variables": {
 					"testVariable1": {
@@ -81,7 +99,7 @@
 				"activities": [
 					{
 						"name": "Set variable1",
-						"type": "SetVariable",
+						"type": "[parameters('pipeline2_properties_0_type')]",
 						"dependsOn": [],
 						"policy": {
 							"secureOutput": false,
@@ -98,9 +116,7 @@
 					"elapsedTimeMetric": {}
 				},
 				"parameters": {
-					"testParameter2": {
-						"type": "string"
-					}
+					"testParameter2": "[parameters('pipeline2_properties_parameters_testParameter2')]"
 				},
 				"variables": {
 					"testVariable2": {
