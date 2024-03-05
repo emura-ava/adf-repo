@@ -25,7 +25,8 @@
     "Microsoft.DataFactory/factories/pipelines": {
         "properties": {
             "parameters": {
-                "*": "="
+                "*": "=",
+                "except": ["testParameter1"]
             },
             "variables": {
                 "*": "="
