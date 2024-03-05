@@ -17,11 +17,11 @@
 		"default_properties_testGlobal3": {
 			"type": "string"
 		},
-		"pipeline2_properties_variables_testVariable2": {
-			"type": "object"
+		"pipeline2_properties_variables": {
+			"type": "string"
 		},
-		"pipeline1_properties_variables_testVariable1": {
-			"type": "object"
+		"pipeline1_properties_variables": {
+			"type": "string"
 		}
 	},
 	"variables": {
@@ -78,7 +78,7 @@
 					}
 				},
 				"variables": {
-					"testVariable2": "[parameters('pipeline2_properties_variables_testVariable2')]"
+					"testVariable2": "[parameters('pipeline2_properties_variables')]"
 				},
 				"annotations": [],
 				"lastPublishTime": "2024-03-04T15:45:24Z"
@@ -124,7 +124,7 @@
 					}
 				},
 				"variables": {
-					"testVariable1": "[parameters('pipeline1_properties_variables_testVariable1')]"
+					"testVariable1": "[parameters('pipeline1_properties_variables')]"
 				},
 				"annotations": [],
 				"lastPublishTime": "2024-03-04T15:45:24Z"
