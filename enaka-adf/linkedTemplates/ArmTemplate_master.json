@@ -7,17 +7,15 @@
 			"metadata": "データ ファクトリ名",
 			"defaultValue": "enaka-adf"
 		},
-		"default_properties_testGlobal1_value": {
-			"type": "string",
-			"defaultValue": "replaceglobal1"
+		"default_properties_testGlobal1": {
+			"type": "string"
 		},
 		"default_properties_testGlobal2_value": {
 			"type": "string",
 			"defaultValue": "replaceglobal2"
 		},
-		"default_properties_testGlobal3_value": {
-			"type": "string",
-			"defaultValue": "replaceglobal3"
+		"default_properties_testGlobal3": {
+			"type": "string"
 		},
 		"containerUri": {
 			"type": "string",
@@ -46,14 +44,14 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"default_properties_testGlobal1_value": {
-						"value": "[parameters('default_properties_testGlobal1_value')]"
+					"default_properties_testGlobal1": {
+						"value": "[parameters('default_properties_testGlobal1')]"
 					},
 					"default_properties_testGlobal2_value": {
 						"value": "[parameters('default_properties_testGlobal2_value')]"
 					},
-					"default_properties_testGlobal3_value": {
-						"value": "[parameters('default_properties_testGlobal3_value')]"
+					"default_properties_testGlobal3": {
+						"value": "[parameters('default_properties_testGlobal3')]"
 					}
 				}
 			},
