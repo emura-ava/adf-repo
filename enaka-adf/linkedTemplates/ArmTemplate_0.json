@@ -17,26 +17,11 @@
 		"default_properties_testGlobal3": {
 			"type": "string"
 		},
-		"pipeline2_properties_0_type": {
-			"type": "string",
-			"defaultValue": "SetVariable"
-		},
 		"pipeline2_properties_parameters_testParameter2": {
-			"type": "object",
-			"defaultValue": {
-				"type": "string"
-			}
-		},
-		"pipeline1_properties_0_type": {
-			"type": "string",
-			"defaultValue": "ExecutePipeline"
+			"type": "object"
 		},
 		"pipeline1_properties_parameters_testParameter1": {
-			"type": "object",
-			"defaultValue": {
-				"type": "string",
-				"defaultValue": "testParameter1"
-			}
+			"type": "object"
 		}
 	},
 	"variables": {
@@ -71,7 +56,7 @@
 				"activities": [
 					{
 						"name": "Set variable1",
-						"type": "[parameters('pipeline2_properties_0_type')]",
+						"type": "SetVariable",
 						"dependsOn": [],
 						"policy": {
 							"secureOutput": false,
@@ -109,7 +94,7 @@
 				"activities": [
 					{
 						"name": "Execute Pipeline1",
-						"type": "[parameters('pipeline1_properties_0_type')]",
+						"type": "ExecutePipeline",
 						"dependsOn": [],
 						"policy": {
 							"secureInput": false
