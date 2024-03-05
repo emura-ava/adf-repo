@@ -29,6 +29,13 @@
             },
             "variables": {
                 "*": "="
+            },
+            "activities": {
+                "*": {
+                    "parameters": {
+                        "*": "="
+                    }
+                }
             }
         }
     },
