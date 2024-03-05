@@ -25,15 +25,10 @@
     "Microsoft.DataFactory/factories/pipelines": {
         "properties": {
             "parameters": {
-                "*": "="
+                "pipeline1_*": "="
             },
             "variables": {
-                "*": "="
-            },
-            "activities": {
-                "parameters": {
-                    "*": "="
-                }
+                "pipeline1_*": "="
             }
         }
     },
