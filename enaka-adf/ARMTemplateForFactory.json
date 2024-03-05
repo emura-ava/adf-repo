@@ -7,33 +7,6 @@
 			"metadata": "データ ファクトリ名",
 			"defaultValue": "enaka-adf"
 		},
-		"pipeline1_properties_parameters_testParameter1": {
-			"type": "object",
-			"defaultValue": {
-				"type": "string",
-				"defaultValue": "testParameter1"
-			}
-		},
-		"pipeline1_properties_variables_testVariable1": {
-			"type": "object",
-			"defaultValue": {
-				"type": "String",
-				"defaultValue": "testVariable1"
-			}
-		},
-		"pipeline2_properties_parameters_testParameter2": {
-			"type": "object",
-			"defaultValue": {
-				"type": "string"
-			}
-		},
-		"pipeline2_properties_variables_testVariable2": {
-			"type": "object",
-			"defaultValue": {
-				"type": "String",
-				"defaultValue": "testVariable2"
-			}
-		},
 		"default_properties_testGlobal1": {
 			"type": "string"
 		},
@@ -82,10 +55,16 @@
 					"elapsedTimeMetric": {}
 				},
 				"parameters": {
-					"testParameter1": "[parameters('pipeline1_properties_parameters_testParameter1')]"
+					"testParameter1": {
+						"type": "string",
+						"defaultValue": "testParameter1"
+					}
 				},
 				"variables": {
-					"testVariable1": "[parameters('pipeline1_properties_variables_testVariable1')]"
+					"testVariable1": {
+						"type": "String",
+						"defaultValue": "testVariable1"
+					}
 				},
 				"annotations": [],
 				"lastPublishTime": "2024-03-04T15:45:24Z"
@@ -119,10 +98,15 @@
 					"elapsedTimeMetric": {}
 				},
 				"parameters": {
-					"testParameter2": "[parameters('pipeline2_properties_parameters_testParameter2')]"
+					"testParameter2": {
+						"type": "string"
+					}
 				},
 				"variables": {
-					"testVariable2": "[parameters('pipeline2_properties_variables_testVariable2')]"
+					"testVariable2": {
+						"type": "String",
+						"defaultValue": "testVariable2"
+					}
 				},
 				"annotations": [],
 				"lastPublishTime": "2024-03-04T15:45:24Z"
